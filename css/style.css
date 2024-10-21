@@ -1,0 +1,118 @@
+nav img{
+    width: 80px;
+    height: 50px;
+}
+.nav-link {
+    color: #0c5423 !important;
+    font-size: 14px;
+    font-weight: 700px!important;
+}
+.bggreen{
+    background-color:#0c5423 ;
+}
+.hrcolor{color: #011a09;}
+.bg-button-green{
+    background-color:#0c5423 ;
+    border: #0c5423 solid;  
+
+}
+.bg-button-green:hover{
+    background-color:#0c5423 ;
+    border: #0c5423 solid; 
+    color: white;
+}
+.btnshop{
+    width: 150px;
+
+}
+/* .product-card {
+    text-align: center;
+    padding: 15px;
+  }
+  .product-card img {
+    width: 30%;
+    height: auto;
+  } */
+  /* .carousel-item {
+    display: flex;
+    justify-content: center;
+  } */
+footer{
+    background-color:#0c5423 ;
+}
+footer img{
+    width: 80px;
+    height: 50px;
+}
+
+
+.product-carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .product-carousel-track {
+    display: flex;
+    gap: 10px;
+    animation: scrollCarousel 15s linear infinite;
+  }
+
+  .product-card {
+    flex: 0 0 auto;
+    width: 20%; /* Show 5 products at a time */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative; /* To position the badges relative to this div */
+  }
+
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .product-card h5 {
+    margin: 10px 0 5px;
+    font-size: 1rem;
+  }
+
+  .product-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+
+  /* Badge styling */
+  .bestseller-badge, .discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    color: #fff;
+    border-radius: 5px;
+    z-index: 10; /* Ensure it appears on top of images */
+  }
+
+  .bestseller-badge {
+    background-color: #0c5423; /* Bestseller badge */
+  }
+
+  .discount-badge {
+    background-color: #a31010; /* Discount badge */
+    top: 40px; /* Slightly below the bestseller badge */
+  }
+
+  /* Carousel Animation */
+  @keyframes scrollCarousel {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  a{text-decoration: none;}
